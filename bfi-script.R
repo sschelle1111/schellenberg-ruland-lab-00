@@ -94,7 +94,7 @@ scale_summary |>
   ) |>
   opt_row_striping()
 
-model_data <- bfi_analysis |>
+model_data_broken <- bfi_analysis |>
   select(
     Neuroticism,
     age,
